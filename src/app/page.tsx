@@ -54,10 +54,7 @@ export default function HomePage() {
               I built this starter to remove setup noise from small projects.
             </p>
             <p>
-              It’s Next.js and Tailwind, with the pieces I reuse most and the
-              defaults I trust.
-            </p>
-            <p>Nothing extra. Just defaults you can depend on.</p>
+              It’s Next.js and Tailwind, stripped down to the pieces I actually use. Nothing extra. Just defaults you can depend on.</p>
             <p>
               The goal is consistency. Same structure, same patterns, same
               baseline decisions, so I can focus on the work instead of
