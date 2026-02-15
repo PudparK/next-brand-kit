@@ -21,13 +21,24 @@ npm run dev
 Copy `.env.example` to `.env.local` and set your values:
 
 - `NEXT_PUBLIC_SITE_URL`
+- `NEXT_PUBLIC_TAGLINE`
 - `NEXT_PUBLIC_SUBSTACK_URL`
 - `NEXT_PUBLIC_INSTAGRAM_URL`
 - `NEXT_PUBLIC_GITHUB_URL`
 - `NEXT_PUBLIC_LINKEDIN_URL`
 - `NEXT_PUBLIC_BUY_ME_A_COFFEE_URL`
 
-These are used by homepage social links, support CTA, and metadata.
+These are used by homepage hero content, social links, support CTA, and metadata.
+
+## How To Make It Yours
+
+1. Update `.env.local` with your brand values and links.
+2. Replace homepage body copy in `src/app/page.tsx`.
+3. Update site metadata in `src/app/layout.tsx` (`title`, `description`, Open Graph, Twitter).
+4. Replace social preview image at `public/graph-image.png`.
+5. Update avatar and personal imagery (`src/images/avatar.jpg`, any images in `public/`).
+6. Adjust navigation/footer labels in `src/components/Header.tsx` and `src/components/Footer.tsx`.
+7. Run `npm run lint` and `npm run build` before deploy.
 
 ## Social Preview Image
 

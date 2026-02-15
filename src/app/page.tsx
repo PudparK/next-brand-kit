@@ -12,6 +12,7 @@ const SUBSTACK_URL = process.env.NEXT_PUBLIC_SUBSTACK_URL as string
 const INSTAGRAM_URL = process.env.NEXT_PUBLIC_INSTAGRAM_URL as string
 const GITHUB_URL = process.env.NEXT_PUBLIC_GITHUB_URL as string
 const LINKEDIN_URL = process.env.NEXT_PUBLIC_LINKEDIN_URL as string
+const TAGLINE = process.env.NEXT_PUBLIC_TAGLINE as string
 
 function SocialLink({
   href,
@@ -44,7 +45,7 @@ export default function HomePage() {
             REUSABLE STARTER
           </p>
           <h1 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl dark:text-slate-100">
-            A personal starter for smaller Next.js builds
+            {TAGLINE}
           </h1>
         </header>
 
